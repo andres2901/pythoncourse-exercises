@@ -31,6 +31,12 @@ class Die:
         else:
             return("---------\n|*     *|\n|*     *|\n|*     *|\n---------")
 
+    def dice_value(self):
+        if self.value <= 5:
+            return self.value
+        else:
+            return int(6)
+
     @classmethod
     def create_dice(cls, n):
         return [cls() for _ in range(n)]
