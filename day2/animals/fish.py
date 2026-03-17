@@ -6,5 +6,5 @@ class Fish:
     
     def printMembers(self):
         print('Printing members of the Fish class')
-        for member in sef.members:
+        for member in self.members:
             print('\t%s ' % member)
