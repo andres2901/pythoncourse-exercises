@@ -1,5 +1,6 @@
 # Program to multiply two matrices using nested loops
 import random
+from line_profiler import profile
 
 N = 250
 
@@ -28,7 +29,7 @@ def matrices(N):
             for k in range(len(Y)):
                 result[i][j] += X[i][k] * Y[k][j]
 
-    for r in result:
-        print(r)
+    print(f"{len(result)},{len(result[0])}")
+    return(result)
 
 matrices(N)
