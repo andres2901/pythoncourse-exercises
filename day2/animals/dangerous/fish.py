@@ -1,10 +1,10 @@
 class Fish:
     def __init__(self):
-        ''' Constructor for this class. '''
+        """Constructor for this class."""
         # Create some member animals
-        self.members = ['Stonefish', 'Puffer', 'Piranha']
-    
+        self.members = ["Stonefish", "Puffer", "Piranha"]
+
     def printMembers(self):
-        print('Printing members of the Fish class from subpackage dangerous')
+        print("Printing members of the Fish class from subpackage dangerous")
         for member in self.members:
-            print('\t%s ' % member)
+            print("\t%s " % member)
