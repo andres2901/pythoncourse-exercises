@@ -7,8 +7,8 @@ In which line(s) of the script would you start optimizing for speed?
 #### b. Investigate the performance of the ```euler72.py``` script
 In which line(s) of the script would you start optimizing for speed?
 (This is one problem from the euler project: [https://projecteuler.net/problem=72](https://projecteuler.net/problem=72))
-- Probably in the factorize function due to be associated with the biggest run time among all functions.
+- Probably in the factorize function due to be associated with the biggest run time among all functions. In this case, a single line by its own do not pop up.
 
 #### c. Improve the performance of the ```matmult.py``` script
 What is the best performance that you achieved with N=250?
-- A total time of: 0.0787547 that can be check at 'matmult_optimized.py.lprof'. 
+- A total time of: 0.0819727 that can be check at 'matmult_optimized.py.lprof'. 

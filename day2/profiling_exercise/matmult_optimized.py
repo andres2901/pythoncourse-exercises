@@ -16,5 +16,6 @@ def matrices(N):
     result = np.matmul(X, Y)
 
     print(result.shape)
+    return result
 
 matrices(N)
